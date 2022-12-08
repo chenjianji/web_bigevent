@@ -12,7 +12,7 @@ $(function() {
       // 1. 清空本地存储中的 token
       localStorage.removeItem('token')
       // 2. 重新跳转到登录页面
-      location.href = '/login.html'
+      location.href = '/08-前后端交互/03-大事件项目/login.html'
 
       // 关闭 confirm 询问框
       layer.close(index)
